@@ -3,7 +3,7 @@ name: Update IPTV
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 18 * * *"
 
 permissions:
   contents: write
@@ -41,7 +41,14 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output config/subscribe.txt config/epg.txt
+          git add \
+            output/result.m3u \
+            output/result.txt \
+            output/ipv4/result.txt \
+            output/ipv6/result.txt \
+            output/epg/epg.gz \
+            config/subscribe.txt \
+            config/epg.txt
           if ! git diff --staged --quiet; then
             git commit -m "Update IPTV playlist"
             git push

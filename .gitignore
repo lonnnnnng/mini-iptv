@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 .DS_Store
 output/log/
+output/data/
+output/epg/epg.xml
+output/ipv4/result.m3u
+output/ipv6/result.m3u
