@@ -1,4 +1,4 @@
-📺CCTV/CETV,#genre#
+📺央视,#genre#
 CCTV-1
 CCTV-2
 CCTV-3
@@ -22,7 +22,7 @@ CETV-2
 CETV-3
 CETV-4
 
-📡省级卫视,#genre#
+📡卫视,#genre#
 北京卫视
 天津卫视
 河北卫视
