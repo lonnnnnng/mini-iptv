@@ -3,9 +3,20 @@
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
 
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
+https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_cctv.m3u8
+https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_province.m3u8
+http://117.72.68.25:9230/latest.txt
+https://github.com/yuanzl77/IPTV/raw/refs/heads/main/live.txt
 
-
-
+# 可选兜底源，当前不优先启用
+# Optional fallback sources, not enabled by default
+#https://iptv-org.github.io/iptv/languages/zho.m3u
+#https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
+#https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+#https://github.com/ssili126/tv/raw/refs/heads/main/itvlist.txt
+#https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
