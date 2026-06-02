@@ -1,7 +1,7 @@
 🕘️更新时间,#genre#
-2026-06-02 10:12:44,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-06-02 10:34:27,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 
-📺CCTV/CETV,#genre#
+📺央视,#genre#
 CCTV-1,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 CCTV-1,https://zby.130519.xyz/PLTV/11/224/3221225673/index.m3u8
 CCTV-1,https://zby.130519.xyz/PLTV/11/224/3221225723/index.m3u8
@@ -49,7 +49,7 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 CCTV-15,https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 CCTV-16,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 
-📡省级卫视,#genre#
+📡卫视,#genre#
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 北京卫视,https://zby.130519.xyz/PLTV/11/224/3221225724/index.m3u8
 天津卫视,http://iptv.huuc.edu.cn/hls/tjhd.m3u8
